@@ -1,0 +1,24 @@
+.pagination {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination div {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    display: block;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.pagination div.active {
+    background-color: #05aff1;
+}
+
+.pagination div:not(.active) {
+    background-color: #444444;
+}
